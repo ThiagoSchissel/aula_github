@@ -1,6 +1,7 @@
 name: pipeline
 on: [push]
-	
+
+jobs:	
 	test:
 		runs-on: ubuntu-latet
     
