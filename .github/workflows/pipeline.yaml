@@ -6,6 +6,6 @@ jobs:
         runs-on: ubuntu-latet
         
         steps:
-            -name: Copia os arquivos do repo
+            - name: Copia os arquivos do repo
             uses: actions/checkout@v3.3.0
    
