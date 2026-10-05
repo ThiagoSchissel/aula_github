@@ -2,9 +2,9 @@ name: pipeline
 on: [push]
 
 jobs:	
-	test:
-		runs-on: ubuntu-latet
-    
-    steps:
+    test:
+        runs-on: ubuntu-latet
+        
+        steps:
         - name: Copia os arquivos do repo
-          uses: action/checkout@v3.3.0
+        uses: action/checkout@v3.3.0
